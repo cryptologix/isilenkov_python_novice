@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a7605d7-b5e4-437e-a180-d2c11f3f06d2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/isilenkov_python_novice.iml" afterPath="$PROJECT_DIR$/.idea/isilenkov_python_novice.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/add_group.py" afterPath="$PROJECT_DIR$/add_group.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,10 +17,15 @@
       <file leaf-file-name="add_group.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/add_group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="334">
+              <caret line="37" column="55" lean-forward="false" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
               <folding>
                 <element signature="e#24#54#0" expanded="true" />
+                <element signature="e#784#830#0" expanded="false" />
+                <element signature="e#880#926#0" expanded="false" />
+                <element signature="e#994#1678#0" expanded="false" />
+                <element signature="e#1733#2113#0" expanded="false" />
+                <element signature="e#2157#2196#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -40,8 +44,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="218" />
-    <option name="y" value="54" />
+    <option name="x" value="220" />
+    <option name="y" value="49" />
     <option name="width" value="878" />
     <option name="height" value="871" />
   </component>
@@ -177,6 +181,22 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method />
     </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="isilenkov_python_novice" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
     <list size="1">
       <item index="0" class="java.lang.String" itemvalue="Python.add_group" />
     </list>
@@ -200,10 +220,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="218" y="54" width="878" height="871" extended-state="0" />
+    <frame x="220" y="49" width="878" height="871" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36774942" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18329467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38501972" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -233,10 +253,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/add_group.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="334">
+          <caret line="37" column="55" lean-forward="false" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
           <folding>
             <element signature="e#24#54#0" expanded="true" />
+            <element signature="e#784#830#0" expanded="false" />
+            <element signature="e#880#926#0" expanded="false" />
+            <element signature="e#994#1678#0" expanded="false" />
+            <element signature="e#1733#2113#0" expanded="false" />
+            <element signature="e#2157#2196#0" expanded="false" />
           </folding>
         </state>
       </provider>
