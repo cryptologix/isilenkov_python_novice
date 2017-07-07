@@ -22,7 +22,7 @@ class add_group(unittest.TestCase):
         success = True
 
         wd = self.wd
-        self.open_home_page(wd)
+
         self.login(wd, "admin", "secret")
         self.create_new_group(wd,Group("Test","Add new group","with parameters"))
         self.return_to_group_page(wd)
@@ -35,16 +35,15 @@ class add_group(unittest.TestCase):
         success = True
 
         wd = self.wd
-        self.open_home_page(wd)
         self.login(wd, username="admin", password="secret")
         self.create_new_group(wd,Group(name="",header="",footer=""))
-        self.return_to_group_page(wd)
         self.logout(wd)
 
         self.assertTrue(success)
 
 
     def logout(self, wd):
+        self.return_to_group_page(wd)
         wd.find_element_by_link_text("Logout").click()
 
     def return_to_group_page(self, wd):
@@ -65,6 +64,7 @@ class add_group(unittest.TestCase):
         wd.find_element_by_name("submit").click()
 
     def login(self, wd, username, password):
+        self.open_home_page(wd)
         wd.find_element_by_name("user").click()
         wd.find_element_by_name("user").clear()
         wd.find_element_by_name("user").send_keys(username)
