@@ -12,7 +12,8 @@ def is_alert_present(wd):
 
 class add_group(unittest.TestCase):
     def setUp(self):
-        self.wd = webdriver.Chrome("C:/python27/chromedriver.exe")
+    #    self.wd = webdriver.Chrome("C:/python27/chromedriver.exe")
+        self.wd = webdriver.Chrome("C:/chromedriver.exe")
         self.wd.implicitly_wait(60)
 
 
@@ -23,6 +24,19 @@ class add_group(unittest.TestCase):
         self.open_home_page(wd)
         self.login(wd, "admin", "secret")
         self.create_new_group(wd,"Test","Add new group","with parameters")
+        self.return_to_group_page(wd)
+        self.logout(wd)
+
+        self.assertTrue(success)
+
+
+    def test_add_empty_group(self):
+        success = True
+
+        wd = self.wd
+        self.open_home_page(wd)
+        self.login(wd, "", "")
+        self.create_new_group(wd,"","","")
         self.return_to_group_page(wd)
         self.logout(wd)
 
