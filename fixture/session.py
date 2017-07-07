@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+from group import groupHelper
+
 class sessionHelper:
 
     def __init__(self,app):
@@ -7,7 +9,7 @@ class sessionHelper:
     # выход
     def logout(self):
         wd = self.app.wd
-        self.app.return_to_group_page()
+        self.app.group.open_group_page()
         wd.find_element_by_link_text("Logout").click()
 
      # вход
