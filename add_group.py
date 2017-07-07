@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from selenium.webdriver.firefox.webdriver import WebDriver
+from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 import time, unittest
 
@@ -12,7 +12,7 @@ def is_alert_present(wd):
 
 class add_group(unittest.TestCase):
     def setUp(self):
-        self.wd = WebDriver()
+        self.wd = webdriver.Chrome("C:/python27/chromedriver.exe")
         self.wd.implicitly_wait(60)
     
     def test_add_group(self):
