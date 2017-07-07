@@ -2,6 +2,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
 import time, unittest
+from classes import Group
 
 def is_alert_present(wd):
     try:
@@ -12,8 +13,8 @@ def is_alert_present(wd):
 
 class add_group(unittest.TestCase):
     def setUp(self):
-    #    self.wd = webdriver.Chrome("C:/python27/chromedriver.exe")
-        self.wd = webdriver.Chrome("C:/chromedriver.exe")
+        self.wd = webdriver.Chrome("C:/python27/chromedriver.exe")
+        #self.wd = webdriver.Chrome("C:/chromedriver.exe")
         self.wd.implicitly_wait(60)
 
 
@@ -35,7 +36,7 @@ class add_group(unittest.TestCase):
 
         wd = self.wd
         self.open_home_page(wd)
-        self.login(wd, username="", password="")
+        self.login(wd, username="admin", password="secret")
         self.create_new_group(wd,Group(name="",header="",footer=""))
         self.return_to_group_page(wd)
         self.logout(wd)
