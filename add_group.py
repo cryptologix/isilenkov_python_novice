@@ -49,7 +49,7 @@ class add_group(unittest.TestCase):
     def return_to_group_page(self, wd):
         wd.find_element_by_link_text("groups").click()
 
-    def create_new_group(self, wd, name, header, footer):
+    def create_new_group(self, wd, Group):
         self.return_to_group_page(wd)
         wd.find_element_by_xpath("//div[@id='content']/form/input[4]").click()
         wd.find_element_by_name("group_name").click()
