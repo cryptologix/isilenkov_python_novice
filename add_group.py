@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 from selenium import webdriver
-from selenium.webdriver.common.action_chains import ActionChains
 from classes import Group
 from application import Application
 import pytest
@@ -13,7 +12,7 @@ def app(request):
 
 def test_add_group(app):
     success = True
-    app.login("admin", "secret")
+    app.login(username="admin", password="secret")
     app.create_new_group(Group("Test","Add new group","with parameters"))
     app.logout()
     app.assertTrue(success)
