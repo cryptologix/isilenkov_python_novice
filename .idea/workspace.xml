@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a7605d7-b5e4-437e-a180-d2c11f3f06d2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conftest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/test_delete_group.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/add_group.py" afterPath="$PROJECT_DIR$/tests/test_add_group.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/test_modify_group.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fixture/group.py" afterPath="$PROJECT_DIR$/fixture/group.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/classes.py" afterPath="$PROJECT_DIR$/model/classes.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,30 +30,28 @@
       <file leaf-file-name="test_delete_group.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_delete_group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/conftest.py">
+      <file leaf-file-name="test_modify_group.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/test_modify_group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="68">
+              <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="group.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="group.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fixture/group.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+            <state relative-caret-position="867">
+              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,8 +60,8 @@
       <file leaf-file-name="session.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fixture/session.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -85,8 +82,8 @@
       <file leaf-file-name="classes.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/classes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="1" column="55" lean-forward="false" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -111,11 +108,12 @@
         <option value="$PROJECT_DIR$/add_group.py" />
         <option value="$PROJECT_DIR$/fixture/session.py" />
         <option value="$PROJECT_DIR$/fixture/application.py" />
-        <option value="$PROJECT_DIR$/fixture/group.py" />
         <option value="$PROJECT_DIR$/tests/add_group.py" />
         <option value="$PROJECT_DIR$/tests/conftest.py" />
         <option value="$PROJECT_DIR$/tests/delete_group.py" />
         <option value="$PROJECT_DIR$/conftest.py" />
+        <option value="$PROJECT_DIR$/model/classes.py" />
+        <option value="$PROJECT_DIR$/fixture/group.py" />
         <option value="$PROJECT_DIR$/tests/test_modify_group.py" />
       </list>
     </option>
@@ -230,25 +228,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in tests">
-    <configuration default="false" name="add_group" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="isilenkov_python_novice" />
-      <option name="SCRIPT_NAME" value="C:\github\isilenkov_python_novice\tests\test_add_group.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python tests.py.test for test_modify_group.test_modife_group_name">
     <configuration default="false" name="py.test for tests.test_add_group.test_add_empty_group" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -311,6 +291,22 @@
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="py.test for test_modify_group.test_modife_group_name" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="isilenkov_python_novice" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_modify_group.test_modife_group_name&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method />
     </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -394,19 +390,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.add_group" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for tests.test_add_group.test_add_empty_group" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_delete_group.py" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test for tests.test_delete_group.test_delete_first_group" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in tests" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test for tests.test_add_group.test_add_empty_group" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in test_delete_group.py" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for tests.test_delete_group.test_delete_first_group" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in tests" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test for test_modify_group.test_modife_group_name" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in tests" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for tests.test_delete_group.test_delete_first_group" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in test_delete_group.py" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test for tests.test_add_group.test_add_empty_group" />
-        <item index="4" class="java.lang.String" itemvalue="Python.add_group" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test for test_modify_group.test_modife_group_name" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in tests" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for tests.test_delete_group.test_delete_first_group" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in test_delete_group.py" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test for tests.test_add_group.test_add_empty_group" />
       </list>
     </recent_temporary>
   </component>
@@ -424,29 +420,29 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_add_group_test_add_empty_group - 2017.07.07 at 20h 37m 14s.xml">
-      <configuration name="py.test for add_group.test_add_empty_group" configurationId="tests" />
+    <history-entry file="py_test_for_test_modify_group_test_modife_group_name - 2017.07.08 at 10h 54m 42s.xml">
+      <configuration name="py.test for test_modify_group.test_modife_group_name" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_add_group_test_add_empty_group - 2017.07.07 at 20h 38m 02s.xml">
-      <configuration name="py.test for add_group.test_add_empty_group" configurationId="tests" />
+    <history-entry file="py_test_for_test_modify_group_test_modife_group_name - 2017.07.08 at 10h 55m 18s.xml">
+      <configuration name="py.test for test_modify_group.test_modife_group_name" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_add_group_test_add_empty_group - 2017.07.07 at 20h 38m 41s.xml">
-      <configuration name="py.test for add_group.test_add_empty_group" configurationId="tests" />
+    <history-entry file="py_test_for_test_modify_group_test_modife_group_name - 2017.07.08 at 10h 56m 03s.xml">
+      <configuration name="py.test for test_modify_group.test_modife_group_name" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_add_group_test_add_empty_group - 2017.07.07 at 20h 40m 14s.xml">
-      <configuration name="py.test for add_group.test_add_empty_group" configurationId="tests" />
+    <history-entry file="py_test_for_test_modify_group_test_modife_group_name - 2017.07.08 at 10h 57m 02s.xml">
+      <configuration name="py.test for test_modify_group.test_modife_group_name" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_delete_group_test_delete_first_group - 2017.07.08 at 10h 34m 57s.xml">
-      <configuration name="py.test for delete_group.test_delete_first_group" configurationId="tests" />
+    <history-entry file="py_test_for_test_modify_group_test_modife_group_name - 2017.07.08 at 11h 05m 11s.xml">
+      <configuration name="py.test for test_modify_group.test_modife_group_name" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_delete_group_py - 2017.07.08 at 10h 34m 09s.xml">
-      <configuration name="py.test in delete_group.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_modify_group_test_modife_group_name - 2017.07.08 at 11h 05m 49s.xml">
+      <configuration name="py.test for test_modify_group.test_modife_group_name" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_delete_group_py - 2017.07.08 at 10h 34m 29s.xml">
-      <configuration name="py.test in delete_group.py" configurationId="tests" />
+    <history-entry file="py_test_for_test_modify_group_test_modife_group_name - 2017.07.08 at 11h 06m 35s.xml">
+      <configuration name="py.test for test_modify_group.test_modife_group_name" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_tests - 2017.07.08 at 10h 36m 57s.xml">
-      <configuration name="py.test in tests" configurationId="tests" />
+    <history-entry file="py_test_for_test_modify_group_test_modife_group_name - 2017.07.08 at 11h 06m 51s.xml">
+      <configuration name="py.test for test_modify_group.test_modife_group_name" configurationId="tests" />
     </history-entry>
     <history-entry file="py_test_in_tests - 2017.07.08 at 10h 38m 51s.xml">
       <configuration name="py.test in tests" configurationId="tests" />
@@ -457,8 +453,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1234375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -489,7 +486,7 @@
           <line>3</line>
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -519,18 +516,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/classes.py">
+    <entry file="file://$PROJECT_DIR$/fixture/application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_delete_group.py">
+    <entry file="file://$PROJECT_DIR$/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
+        <state relative-caret-position="17">
+          <caret line="1" column="43" lean-forward="true" selection-start-line="1" selection-start-column="43" selection-end-line="1" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="55" lean-forward="false" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
           <folding />
         </state>
       </provider>
@@ -543,46 +552,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/group.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fixture/session.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fixture/application.py">
+    <entry file="file://$PROJECT_DIR$/tests/test_delete_group.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#54#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_modify_group.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/group.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding />
         </state>
       </provider>
